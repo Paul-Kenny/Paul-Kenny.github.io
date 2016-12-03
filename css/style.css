@@ -327,6 +327,9 @@ ul, ol{
     padding-right: 55px;
 }
 
+.year h2{
+    padding-bottom: 10px;
+}
 
 /* Home Style */
 #cv-home{
@@ -426,6 +429,7 @@ ul.about-list li span{
 .section-title.center h2{
     color: #fcac45;
 }
+
 .section-title.center .line{
 	border-top: 4px solid #fcac45;
 	height: 10px;
@@ -500,13 +504,18 @@ img.img-circle.skills-img {
     padding-bottom: 20px;
 }
 
+#cv-education .section-title h2,
+.section-title.center h2{
+    color: #203E62;
+}
+
 .space{
 	margin-top: 40px;
 }
 
 #cv-skills .section-title h2,
 .section-title.center h2{
-    color: #203E62 !important;
+    color: #fcac45;
 }
 
 
@@ -529,7 +538,8 @@ img.img-circle.skills-img {
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	padding: 80px 0;
+	padding: 0px 0;
+    padding-bottom: 20px;
 	background-attachment: fixed;
 }
 
@@ -540,10 +550,24 @@ img.img-circle.skills-img {
     text-align: center;
 }
 
+#cv-projects .section-title h2,
+.section-title.center h2{
+    color: #fcac45;
+}
+
+.modal-body {
+    background-color: white;
+    height: 400px;
+}
+
 /* experience Section 
 ==============================*/
 #cv-experience{
-	padding: 80px 0;
+	padding: 0px 20;
+}
+#cv-experience .section-title h2,
+.section-title.center h2{
+    color: #203E62;
 }
 .categories{ 
 	padding: 10px 0;
