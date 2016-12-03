@@ -265,7 +265,7 @@ ul, ol{
 /*Education tabs*/
 .gpa {
     height: 100px;
-    max-width: 250px;
+    max-width: auto;
     background-color: #ddd;
     text-align: center;
 }
@@ -302,6 +302,24 @@ ul, ol{
     font-size:10px;
     margin-top:5px;
     font-weight:bold
+}
+.collapsible{
+        margin-left: 30px;
+    }
+.module {
+	float: left;
+}
+.grade {  
+    float: right;
+}
+.percent {
+    float: right;
+}
+.toggle-header{
+    padding:10px 0;
+    margin:10px 0;
+    background-color:black;
+    color:white;
 }
 
 /* Home Style */
