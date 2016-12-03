@@ -305,15 +305,19 @@ ul, ol{
 }
 .collapsible{
         margin-left: 30px;
-    }
+}
+.panel-heading{
+    height: 38px;
+}
 .module {
 	float: left;
 }
-.grade {  
-    float: right;
-}
 .percent {
     float: right;
+}
+.grade {  
+    float: right;
+    padding-right: 10px;
 }
 .toggle-header{
     padding:10px 0;
