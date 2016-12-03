@@ -30,7 +30,19 @@
     .gpa h2{ 
     font-size: 25px;
     }
-}
+    .circle {
+        margin: 6px;
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .circle p {
+      font-size: 17px;
+      line-height:100px;
+    }
+    }
 
 @media (max-width: 603px){
 #cv-works li.pull-right, #cv-works li.pull-left {
@@ -56,10 +68,10 @@ label{
 
 @media (max-width: 450px){
 .panel-heading{
-    height: 33px;
+    height: 32px;
 }
 h4 a{
-    font-size: 13px;
+    font-size: 12px;
 }
 }
 
