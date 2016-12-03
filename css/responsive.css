@@ -43,6 +43,16 @@ label{
 }
     
 }
+
+@media (max-width: 450px){
+    .panel-title a span{
+        font-size: 13px;;
+    }
+    .panel-heading{
+    height: 33px;
+}
+}
+
 @media (max-width: 360px){
 .hover-bg .hover-text {
     padding: 22% 10%;
