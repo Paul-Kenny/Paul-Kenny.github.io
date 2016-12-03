@@ -264,6 +264,7 @@ ul, ol{
 
 /*Education tabs*/
 .gpa {
+    margin-left: 30px;
     height: 100px;
     max-width: auto;
     background-color: #ddd;

@@ -3,6 +3,9 @@
     .collapsible{
         margin-left: 20px;
     } 
+    .gpa h2{ 
+    font-size: 20px;
+    }
 }
 
 
@@ -22,6 +25,10 @@
     } 
     .gpa{
         width: auto;
+        margin-left: 0px;
+    }
+    .gpa h2{ 
+    font-size: 25px;
     }
 }
 
@@ -46,6 +53,16 @@ label{
 }
     
 }
+
+@media (max-width: 450px){
+.panel-heading{
+    height: 33px;
+}
+h4 a{
+    font-size: 13px;
+}
+}
+
 @media (max-width: 360px){
 .hover-bg .hover-text {
     padding: 22% 10%;
