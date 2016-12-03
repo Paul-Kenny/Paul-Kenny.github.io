@@ -285,7 +285,7 @@ ul, ol{
     white-space: nowrap;
     text-align: center;
     position: relative;
-    background:#ddd;
+    background:#203E62;
 }
 #custom_carousel .controls li {
     display: table-cell;
@@ -309,23 +309,22 @@ ul, ol{
 .panel-heading{
     height: 38px;
 }
+.panel-heading a{
+    color: #203E62 !important;
+}
 .module {
 	float: left;
 }
 .percent {
     float: right;
-}
-.grade {  
-    float: right;
     padding-right: 10px;
 }
-.toggle-header{
-    padding:10px 0;
-    margin:10px 0;
-    background-color:black;
-    color:white;
+.grade {  
+    float: right;    
 }
-
+.panel-body .percent{
+    padding-right: 30px;
+}
 /* Home Style */
 #cv-home{
 	background: url(../img/banner2.jpg);
