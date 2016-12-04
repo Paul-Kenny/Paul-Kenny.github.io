@@ -469,9 +469,7 @@ figure.box {
   background-color: #1a1a1a;
   text-align: left;
   margin: 10px;
-  width: 90%;
-  border-radius: 0px;
-  border: 1px solid #fcac45;  
+  border-radius: 0px; 
 }
 figure.box img{  
   width: 100%;
@@ -505,6 +503,7 @@ figure.box h4 {
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 100;
+    font-size: 15px;
 }
 figure.box p {
   font-weight: 300;
@@ -528,7 +527,7 @@ figure.box a:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 figure.box.blue {
-  background-color: #203E62;
+  background-color: transparent;
 }
 figure.box:hover img,
 figure.box.hover img {
@@ -546,12 +545,25 @@ figure.box.hover a {
 .modal-body {
     background-color: white; 
 }
+.modal-body h4{
+   text-align: left;
+}
+.modal-body p{
+   text-align: left;
+}
 .modal-body img{  
     border: 2px solid #fcac45; 
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: auto;
 }
+.modal-body ul{
+    margin: 10px;
+}
+.modal-body ul li{
+   text-align: left;
+}
+
 /* experience Section 
 ==============================*/
 #cv-experience{
