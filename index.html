@@ -8,7 +8,10 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-     
+     <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
     <!-- Stylesheet
     ================================================== -->
@@ -16,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
+     
+    
 
   </head>
     
@@ -1591,7 +1596,6 @@
                                 </div>    
                             </div>
                         </div>
-                        
                     </div>
                 </div>
                 <!-- Cinema Modal -->
@@ -1626,7 +1630,6 @@
                                 </div>    
                             </div>
                         </div>
-                        
                     </div>
                 </div>
                 <!-- OJ Modal -->
@@ -1656,7 +1659,6 @@
                                     </div>
                                 </div>    
                             </div>
-                            .
                         </div>
                         
                     </div>
@@ -1689,7 +1691,6 @@
                                     </div>
                                 </div>    
                             </div>
-                            .
                         </div>
                         
                     </div>
@@ -1721,9 +1722,9 @@
                     <li class="pull-right">
                         <ol class="type">
                             <li><a href="#" data-filter="*" class="active">All</a></li>
-                            <li><a href="#" data-filter=".web">Software</a></li>
-                            <li><a href="#" data-filter=".photography">Engineering</a></li>
-                            <li><a href="#" data-filter=".app" >Other</a></li>
+                            <li><a href="#" data-filter=".soft">Software</a></li>
+                            <li><a href="#" data-filter=".eng">Engineering</a></li>
+                            <li><a href="#" data-filter=".other" >Other</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -1732,10 +1733,10 @@
 
             <div id="lightbox" class="row">
 
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
+                <div class="col-sm-6 col-md-3 col-lg-3 soft">                    
+                    <div class="portfolio-item">                        
                         <div class="hover-bg">
-                            <a href="#">
+                            <a data-toggle="modal" data-target="#comp" >
                                 <div class="hover-text">
                                     <h4>Open Jaw</h4>
                                     <small>A TravelSky Company</small>
@@ -1743,11 +1744,11 @@
                                 </div>
                                 <img src="img/openjaw.jpg" class="img-responsive" alt="...">
                             </a>
-                        </div>
-                    </div>
+                        </div>                            
+                    </div>                    
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                <div class="col-sm-6 col-md-3 col-lg-3 soft">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
@@ -1762,7 +1763,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 photography">
+                <div class="col-sm-6 col-md-3 col-lg-3 eng">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
@@ -1777,7 +1778,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 app">
+                <div class="col-sm-6 col-md-3 col-lg-3 other">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
@@ -1820,16 +1821,19 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
+      
+    <script src="js/owl.carousel.js"></script>
 
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
-      <script>$(document).ready(function(ev){
+    <script>$(document).ready(function(ev){
     $('#custom_carousel').on('slide.bs.carousel', function (evt) {
       $('#custom_carousel .controls li.active').removeClass('active');
       $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
     })
-});</script>
+});</script> 
+    
 
   </body>
 </html>

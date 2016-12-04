@@ -268,6 +268,13 @@ ul, ol{
     background-color:#eee;
     border-top:3px solid #FCAC45;
 }
+#custom_carousel .controls a small {
+    overflow:hidden;
+    display:block;
+    font-size:10px;
+    margin-top:5px;
+    font-weight:bold
+}
 .collapsible{
         margin-left: 30px;
 }
@@ -586,12 +593,16 @@ ol.type li{
 	display: inline-block;
 	margin-left: 20px;
 }
+ol.type li a{
+    color: #203E62;
+}
+
 ol.type li:after{
 	content: ' | ';
-	margin-left: 20px;
+	margin-left: 20px;    
 }
 ol.type li:last-child:after { content: ''; }
-ol.type li a{ color: #222222}
+ol.type li a{ color: #203E62}
 ol.type li a.active { font-weight: 700; }
 .isotope-item { z-index: 2 }
 .isotope-hidden.isotope-item { z-index: 1 }
@@ -634,8 +645,8 @@ ol.type li a.active { font-weight: 700; }
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: #ffffff;
-	background: rgba(0, 0, 0, 0.66);
+	color: #fcac45;
+	background: rgba(32, 62, 98, 0.66);
 	padding: 25% 0;
 	height: 100%;
 	width: 100%;

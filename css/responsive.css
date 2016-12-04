@@ -53,7 +53,7 @@
     }
 
 @media (max-width: 603px){
-#cv-works li.pull-right, #cv-works li.pull-left {
+#cv-experience li.pull-right, #cv-experience li.pull-left {
     margin-top: 10px;
     float: none !important;
     text-align: center;
