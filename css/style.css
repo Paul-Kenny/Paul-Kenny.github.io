@@ -637,8 +637,6 @@ ol.type li a.active { font-weight: 700; }
 }
 .portfolio-item .hover-bg{
 	height: 100px;
-	overflow: hidden;
-	position: relative;
 }
 
 .hover-bg .hover-text {
@@ -648,8 +646,8 @@ ol.type li a.active { font-weight: 700; }
 	color: #fcac45;
 	background: rgba(32, 62, 98, 0.66);
 	padding-top: 20px;
-	height: 100%;
-	width: 100%;
+	height: 100px;
+	width: 263px;
 	opacity: 0;
     transition: all 0.5s;
 }
