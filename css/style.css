@@ -633,10 +633,10 @@ ol.type li a.active { font-weight: 700; }
     transition-property: transform, opacity;
 }
 .portfolio-item{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 .portfolio-item .hover-bg{
-	height: 260px;
+	height: 100px;
 	overflow: hidden;
 	position: relative;
 }
@@ -647,7 +647,7 @@ ol.type li a.active { font-weight: 700; }
 	margin: 0 auto;
 	color: #fcac45;
 	background: rgba(32, 62, 98, 0.66);
-	padding: 25% 0;
+	padding-top: 20px;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
