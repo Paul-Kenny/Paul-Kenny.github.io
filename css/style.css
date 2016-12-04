@@ -267,13 +267,15 @@ ul, ol{
     margin-left: 30px;
     height: 100px;
     max-width: auto;
-    background-color: #ddd;
+    background-color: #203E62;
     text-align: center;
 }
 .gpa h2{
     padding-top: 40px; 
     font-size: 25px;
+    color: #FCAC45;
 }
+
 #custom_carousel .item {
     background-color:#eee;
     padding:20px 0;
@@ -295,23 +297,20 @@ ul, ol{
 }
 #custom_carousel .controls li.active {
     background-color:#eee;
-    border-top:3px solid orange;
-}
-#custom_carousel .controls a small {
-    overflow:hidden;
-    display:block;
-    font-size:10px;
-    margin-top:5px;
-    font-weight:bold
+    border-top:3px solid #FCAC45;
 }
 .collapsible{
         margin-left: 30px;
 }
 .panel-heading{
-    height: 38px;
+    height: 32px;
+    background-color: #ddd;  
 }
-.panel-heading a{
+.panel a h4 {
+    font-size: 12px;
     color: #203E62 !important;
+      
+    line-height: 14px;
 }
 .module {
 	float: left;
@@ -323,12 +322,16 @@ ul, ol{
 .grade {  
     float: right;    
 }
+.panel-body{
+    height: 35px;
+    line-height: 8px;
+}
 .panel-body .percent{
     padding-right: 55px;
 }
 
 .year h2{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 /* Home Style */
@@ -549,7 +552,6 @@ img.img-circle.skills-img {
     color: #FFF;
     text-align: center;
 }
-
 #cv-projects .section-title h2,
 .section-title.center h2{
     color: #fcac45;
