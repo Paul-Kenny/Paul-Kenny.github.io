@@ -6,6 +6,14 @@
     .gpa h2{ 
     font-size: 20px;
     }
+    
+    #cv-projects .row1{
+        display: none;
+    }
+    #cv-projects .row2{
+        display: block;
+    }
+    
 }
 
 

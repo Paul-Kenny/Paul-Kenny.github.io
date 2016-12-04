@@ -427,7 +427,6 @@ ul, ol{
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #ffffff;
 }
 
 #cv-projects .overlay{
@@ -448,13 +447,21 @@ ul, ol{
     color: #fcac45;
 }
 
-.modal-body {
-    background-color: white;
-    height: 400px;
+/*Small Project Boxes*/
+#cv-projects .row2{
+    display: none;
 }
-
-
-figure.snip1174 {
+#cv-projects .row2 h4{
+    font-size: 15px;
+}
+#cv-projects .row2 .item{
+    margin-bottom: 20px;
+}
+#cv-projects .row2 .item img{
+    border: 1px solid #fcac45;
+}
+/*Large Project Boxes*/
+figure.box {
   color: #fcac45;
   position: relative;
   float: left;
@@ -466,48 +473,48 @@ figure.snip1174 {
   border-radius: 0px;
   border: 1px solid #fcac45;  
 }
-figure.snip1174 img{  
+figure.box img{  
   width: 100%;
 }
-figure.snip1174 * {
+figure.box * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-figure.snip1174 img {
+figure.box img {
   max-width: 100%;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   vertical-align: top;
   opacity: 0.7;
 }
-figure.snip1174 figcaption {
+figure.box figcaption {
   position: absolute;
   padding: 40px 25px;
   top: 0;
   left: 0;
 }
-figure.snip1174 h4,
-figure.snip1174 p {
+figure.box h4,
+figure.box p {
   color: #fcac45;  
   margin: 0;
   padding: 0;
 }
-figure.snip1174 h4 {
+figure.box h4 {
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 100;
 }
-figure.snip1174 p {
+figure.box p {
   font-weight: 300;
   margin-bottom: 20px;
   line-height: 1.4em;
 }
-figure.snip1174 a {
+figure.box a {
   display: inline-block;
   padding: 10px 20px;
-  border: 1px solid #fcac45;;
+  border: 1px solid #fcac45;
   text-decoration: none;
   color: #fcac45;;
   letter-spacing: 2px;
@@ -517,25 +524,34 @@ figure.snip1174 a {
   transform: translateY(50%);
   opacity: 0;
 }
-figure.snip1174 a:hover {
+figure.box a:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
-figure.snip1174.blue {
-  background-color: #20638f;
+figure.box.blue {
+  background-color: #203E62;
 }
-figure.snip1174:hover img,
-figure.snip1174.hover img {
+figure.box:hover img,
+figure.box.hover img {
   opacity: 0;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-figure.snip1174:hover a,
-figure.snip1174.hover a {
+figure.box:hover a,
+figure.box.hover a {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
 }
-
+/*Project Modal Box*/
+.modal-body {
+    background-color: white; 
+}
+.modal-body img{  
+    border: 2px solid #fcac45; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: auto;
+}
 /* experience Section 
 ==============================*/
 #cv-experience{
