@@ -386,7 +386,7 @@ ul, ol{
 
 .content{
 	position: relative;
-	padding: 20% 0 0;
+	padding: 15% 0 0;
 }
 
 .color{
@@ -525,7 +525,6 @@ figure.box {
   position: relative;
   float: left;
   overflow: hidden;
-  background-color: #1a1a1a;
   text-align: left;
   margin: 10px;
   border-radius: 0px; 
@@ -542,9 +541,9 @@ figure.box * {
 figure.box img {
   max-width: 100%;
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  transform: scale(1);
   vertical-align: top;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 figure.box figcaption {
   position: absolute;
@@ -684,8 +683,13 @@ ol.type li a.active { font-weight: 700; }
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
+
+.jobs{
+    vertical-align:center;
+}
 .portfolio-item{
 	margin-bottom: 40px;
+    vertical-align:center;
 }
 .portfolio-item .hover-bg{
 	height: 100px;
