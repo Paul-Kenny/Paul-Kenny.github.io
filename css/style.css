@@ -14,8 +14,9 @@ h1 strong{
 }
 h2{
 	text-transform: uppercase;
-	line-height: 20px;
+	line-height: 25px;
     color: #203E62;
+    margin-bottom: 5px;
 }
 h3{
 font-size: 18px;
@@ -107,6 +108,57 @@ ul, ol{
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
+
+/*Contact and Download Buttons*/
+
+.wrap { 
+  margin-top: 50px;
+}
+
+
+.wrap a {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: block;
+  margin: 20px auto;
+  max-width: 150px;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.wrap a.button1 {
+  color: #FCAC45;
+  box-shadow: rgba(252,	172, 69, 0.4) 0 0px 0px 2px inset;
+}
+
+.wrap a.button1:hover {
+  color: #FCAC45;
+  box-shadow: rgba(32, 62, 98, 0.7) 0 80px 0px 2px inset;
+}
+
+#contact .modal-content{
+    max-width: 450px;
+}
+
+#contact .container
+{
+    max-width: 400px;
+    padding-top: 10px;
+}
+
+.modal-footer #clear{
+    background-color: red;
+    color: white;
+}
+
+.modal-footer #submit{
+    background-color: lawngreen;
+    color: white;
+}
+
 
 /*Circles*/
 .circle {
