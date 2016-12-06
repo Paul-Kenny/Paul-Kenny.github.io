@@ -109,6 +109,37 @@ ul, ol{
 	background-color: #FFF;
 	}
 
+/* Home Style */
+#cv-home{
+	background: url(../img/banner2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+}
+
+#cv-home .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	height: 750px;
+	background-attachment: fixed;
+}
+
+.content{
+	position: relative;
+	padding: 15% 0 0;
+}
+
+.color{
+	color: #fcac45;
+}
+
 /*Contact and Download Buttons*/
 .wrap { 
   margin-top: 50px;
@@ -148,6 +179,70 @@ ul, ol{
 .modal-footer #submit{
     background-color: lawngreen;
     color: white;
+}
+
+/* About Section */
+#cv-about{
+	padding: 80px 0;
+}
+
+/* skills Section */
+#cv-skills{
+	background: url(../img/skills3.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+#cv-skills .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	height: auto;
+	background-attachment: fixed;
+	padding: 0px 0;
+}
+#cv-skills .row{
+    margin-bottom: 50px;
+}
+.section-title.center{
+	padding: 30px 0;
+}
+.section-title h2,
+.section-title.center h2{
+	font-weight: 300;
+}
+#cv-skills .section-title h2,
+.section-title.center h2{
+    color: #fcac45;
+}
+.section-title.center .line{
+	border-top: 4px solid #fcac45;
+	height: 10px;
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.section-title.center hr {
+	border-top: 4px solid rgba(252, 172, 69, 0.34);
+	width: 40px;
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+	left: 17%;
+}
+#skills{ margin: 0 auto}
+#modal-content. skills .item{
+    padding: 0;
+    margin: 15px;
+    color: #FFF;
+    text-align: center;
 }
 
 /*Skills Circles*/
@@ -265,6 +360,26 @@ ul, ol{
     background-color: #203E62 !important; 
 }
 
+/* education Section */
+#cv-education{
+	padding: 0px;
+    padding-bottom: 50px;
+}
+
+#cv-education .section-title h2,
+.section-title.center h2{
+    color: #203E62;
+}
+
+.space{
+	margin-top: 40px;
+}
+
+#cv-skills .section-title h2,
+.section-title.center h2{
+    color: #fcac45;
+}
+
 /*Education tabs*/
 .gpa {
     margin-left: 30px;
@@ -278,7 +393,6 @@ ul, ol{
     font-size: 25px;
     color: #FCAC45;
 }
-
 #custom_carousel .item {
     background-color:#eee;
     padding:20px 0;
@@ -339,126 +453,8 @@ ul, ol{
 .panel-body .percent{
     padding-right: 55px;
 }
-
 .year h2{
     padding-bottom: 20px;
-}
-
-/* Home Style */
-#cv-home{
-	background: url(../img/banner2.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	color: #cfcfcf;
-}
-
-#cv-home .overlay{
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	height: 750px;
-	background-attachment: fixed;
-}
-
-.content{
-	position: relative;
-	padding: 15% 0 0;
-}
-
-.color{
-	color: #fcac45;
-}
-/* About Section */
-#cv-about{
-	padding: 80px 0;
-}
-
-/* skills Section */
-#cv-skills{
-	background: url(../img/skills3.jpeg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	color: #ffffff;
-}
-#cv-skills .overlay{
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	height: auto;
-	background-attachment: fixed;
-	padding: 0px 0;
-}
-#cv-skills .row{
-    margin-bottom: 50px;
-}
-.section-title.center{
-	padding: 30px 0;
-}
-.section-title h2,
-.section-title.center h2{
-	font-weight: 300;
-}
-#cv-skills .section-title h2,
-.section-title.center h2{
-    color: #fcac45;
-}
-
-.section-title.center .line{
-	border-top: 4px solid #fcac45;
-	height: 10px;
-	width: 60px;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-.section-title.center hr {
-	border-top: 4px solid rgba(252, 172, 69, 0.34);
-	width: 40px;
-	text-align: center;
-	margin-top: 10px;
-	position: relative;
-	left: 17%;
-}
-#skills{ margin: 0 auto}
-#modal-content. skills .item{
-    padding: 0;
-    margin: 15px;
-    color: #FFF;
-    text-align: center;
-}
-
-
-/* education Section */
-#cv-education{
-	padding: 0px;
-    padding-bottom: 20px;
-}
-
-#cv-education .section-title h2,
-.section-title.center h2{
-    color: #203E62;
-}
-
-.space{
-	margin-top: 40px;
-}
-
-#cv-skills .section-title h2,
-.section-title.center h2{
-    color: #fcac45;
 }
 
 /* projects Section */
@@ -469,7 +465,6 @@ ul, ol{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
 #cv-projects .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
@@ -479,10 +474,9 @@ ul, ol{
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	padding: 0px 0;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 	background-attachment: fixed;
 }
-
 #cv-projects .section-title h2,
 .section-title.center h2{
     color: #fcac45;
@@ -501,6 +495,7 @@ ul, ol{
 #cv-projects .row2 .item img{
     border: 1px solid #fcac45;
 }
+
 /*Large Project Boxes*/
 figure.box {
   color: #fcac45;
@@ -607,7 +602,8 @@ figure.box.hover a {
 /* experience Section 
 ==============================*/
 #cv-experience{
-	padding: 0px 20;
+	padding: 0px;
+    padding-bottom: 50px;
 }
 #cv-experience .section-title h2,
 .section-title.center h2{
@@ -629,7 +625,6 @@ ol.type li{
 ol.type li a{
     color: #203E62;
 }
-
 ol.type li:after{
 	content: ' | ';
 	margin-left: 20px;    
@@ -665,7 +660,6 @@ ol.type li a.active { font-weight: 700; }
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
-
 .jobs{
     vertical-align:center;
 }
@@ -676,7 +670,6 @@ ol.type li a.active { font-weight: 700; }
 .portfolio-item .hover-bg{
 	height: 100px;
 }
-
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -717,7 +710,7 @@ ol.type li a.active { font-weight: 700; }
 	opacity: 1;
 }
 
-/* projects Section */
+/* Twitter Section */
 #cv-twitter{
 	background: url(../img/skills2.jpg);
 	background-size: cover;
@@ -735,7 +728,7 @@ ol.type li a.active { font-weight: 700; }
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	padding: 0px 0;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 	background-attachment: fixed;
 }
 
