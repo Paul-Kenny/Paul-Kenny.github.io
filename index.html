@@ -8,13 +8,25 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+      
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">  
+      
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css"> 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>  
+      
+      
   </head>
   <body>
+      
+     
+      
       
     <!-- Navigation
     ==========================================-->
@@ -1989,10 +2001,14 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script> 
+    
+    <script src="js/owl.carousel.js"></script>  
+      
 
     <!-- Javascript
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
+      
     <!--Move "active" tab on education slider-->
     <script>$(document).ready(function(ev){
         $('#custom_carousel').on('slide.bs.carousel', function (evt) {
@@ -2000,6 +2016,7 @@
             $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
         })
         });</script> 
+      
     <!--Contact form message character limit-->
     <script>$(document).ready(function(){ 
         $('#characterLeft').text('140 characters left');
@@ -2019,6 +2036,7 @@
                 }
             });    
         });</script>
+      
     <!--Clear contact form-->
     <script>function resetForm() {
             document.getElementById("contactForm").reset();
