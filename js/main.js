@@ -1,8 +1,3 @@
-// Hello.
-//
-// This is The Scripts used for ___________ Theme
-//
-//
 
 function main() {
 
@@ -10,7 +5,7 @@ function main() {
    'use strict';
 
    /* ==============================================
-  	Testimonial Slider
+  	Page Scroll
   	=============================================== */ 
 
   	$('a.page-scroll').click(function() {
@@ -27,7 +22,7 @@ function main() {
       });
 
     /*====================================
-    Show Menu on Book
+    Navigation Height
     ======================================*/
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 100;
@@ -38,11 +33,17 @@ function main() {
         }
     });
 
+    /*====================================
+    Active Navigation Tab
+    ======================================*/
     $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
     })
 
+    /*====================================
+    Owl Carousel Scroller (may not use)
+    ======================================*/
   	$(document).ready(function() {
   	  $("#skills").owlCarousel({
   	 
